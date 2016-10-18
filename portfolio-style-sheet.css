@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* My color palette
+dark blue - #330066
+light blue- #605ca8
+*/
+body{
+	/*Overarching design settings*/
+	font-family: "Trebuchet MS", sanserif;
+	padding-left:470px;
+	padding-top:150px;
+	color:white;
+	background-color:#605ca8;
+}
+/* move the circle links into 4x2 table*/
+a{
+	color:white;
+	text-decoration:none;
+	float:center;
+}
+footer{
+	/*Center footer content*/
+	padding-top:50px;
+	padding-right:450px;
+	text-align:center;
+}
+
+/*Show distinction between links and general text*/
+footer a{
+	font-weight:bold;
+}
+footer p{
+	font-weight:normal;
+}
